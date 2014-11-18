@@ -16,7 +16,7 @@ root = Tk()
 
 drawpad = Canvas(root, width=800,height=600, background='white')
 player = drawpad.create_oval(390,580,410,600, fill="green")
-enemy1 = drawpad.create_rectangle(50,100,70,120, fill='red')
+enemy1 = drawpad.create_rectangle(50,100,70,120, fill='black')
 enemy2 = drawpad.create_rectangle(390,250,410,270, fill='red')
 enemy3 = drawpad.create_rectangle(780,400,800,420, fill='red')
 
